@@ -1,0 +1,98 @@
+/* ConnectPackage.css */
+
+.dennycomment-reviews-container{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff; /* Set text color to white for better contrast */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Larger font size for the title */
+    color: black;
+ }
+
+ .dennycomment-reviews-list {
+    margin-bottom: 20px;
+}
+
+.dennycomment-review-item {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for review items */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.dennycomment-add-review {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for the form */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dennycomment-inptr,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.dennycomment-inptr[type="number"] {
+    width: calc(100% - 22px); /* Adjust width for padding */
+}
+
+.btnr {
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnr:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.dennycomment-rating {
+    font-size: 24px;
+    cursor: pointer;
+    color:rgb(234, 220, 23); /* Default star color */
+}
+
+.star.filled {
+    color: #ff3300; /* Color of filled stars */
+}
+
+.delete-btn {
+    background-color: #ff4d4d; /* Red background color for a delete action */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 12px; /* Some padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.delete-btn:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.5); /* Add a custom focus ring */
+}
+
+

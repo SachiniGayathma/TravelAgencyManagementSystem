@@ -1,0 +1,121 @@
+/* PackageManagement.css */
+
+.dennyView-package-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-size: auto;
+    background-position: top left;
+    background-repeat: repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dennyView-package-card {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dennyView-package-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(255, 255, 0, 0.7);
+}
+
+.dennyView-package-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+.dennyView-form-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.dennyView-edit-form {
+    margin-bottom: 20px;
+    padding: 10px; /* Added padding for better spacing */
+    max-width: 250px; /* Reduce the max width of the edit form */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for visibility */
+    border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+.dennyView-edit-form input {
+    margin-bottom: 8px; /* Reduced margin for inputs */
+    width: 100%; /* Full width for inputs */
+    padding: 8px; /* Adjusted padding for smaller input size */
+}
+
+.dennyView-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dennyView-btn.dennyView-btn-dark.mt-4 {
+    background-color: green; /* Set the background color to green */
+    color: white; /* Set the text color to white for better contrast */
+    border: none; /* Remove border if needed */
+    padding: 10px 20px; /* Adjust padding for button size */
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    height: 60px;
+}
+
+.dennyView-btn.dennyView-btn-dark.mt-4:hover {
+    background-color: darkgreen; /* Darker shade on hover */
+}
+
+.dennyView-btn.dennyView-btn-primary {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dennyView-btn.dennyView-btn-primary:hover {
+    background-color: darkblue;
+}
+
+.dennyView-btn.dennyView-btn-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dennyView-btn.dennyView-btn-danger:hover {
+    background-color: darkred;
+}
+
+.dennyView-btn.dennyView-btn-secondary {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dennyView-btn.dennyView-btn-secondary:hover {
+    background-color: darkgray;
+}
